@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+</head>
+<body>
+	<form>
+		<label for="firstName">Fist Name</label>
+		<input type="text" name="firstName" id="firstName">
+		<label for="lastName">Last Name</label>
+		<input type="text" name="lastName" id="lastName">
+		<br>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" value="Male" id="male">
+		<label for="female">Female</label>
+		<input type="radio" name="gender" value="Female" id="female">
+		<label for="other">Male</label>
+		<input type="radio" name="gender" value="Other" id="other">
+		<br>
+		<label for="email">Email</label>
+		<input type="email" name="email" required="true" id="email">
+		<label for="password">Password</label>
+		<input type="password" name="password" minlength="5" maxlength="12" required="true" id="password">
+		<br>
+		<label>Birthday</label>
+		<select name="month">
+			<option value="Jan">Jan</option>
+			<option value="Feb">Feb</option>
+			<option value="Mar">March</option>
+			<option value="Mar">April</option>
+			<option value="Mar">May</option>
+			<option value="Mar">June</option>
+			<option value="Mar">July</option>
+			<option value="Mar">August</option>
+			<option value="Mar">September</option>
+			<option value="Mar">October</option>
+			<option value="Mar">November</option>
+			<option value="Mar">December</option>
+		</select>
+		<br>
+		<label for="terms">I agree to the terms and conditions</label>
+		<input type="checkbox" name="terms" required="true">
+		<br>
+		<button>Submit</button>
+	</form>
+</body>
+</html>

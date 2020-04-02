@@ -1,0 +1,30 @@
+body{
+	border: 10px #bdc3c7 solid;
+	width: 850px;
+	margin-left: 17%;
+}
+
+p{
+	margin: 3%;
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 20px;
+}
+
+h1{
+	margin: 3%;
+	font-family: 'Walter Turncoat', cursive;
+}
+
+h4{
+	margin: 3%;
+	color: #3498db;
+}
+
+#one{
+	border-left:3px #bdc3c7 solid;
+	padding-left: 6px;
+}
+
+#last{
+	border-bottom: 3px #f2f2f2 solid;
+}

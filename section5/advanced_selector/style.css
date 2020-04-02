@@ -1,0 +1,46 @@
+/*All attribute selector */
+*{
+	color: red;
+}
+
+/*Attribute selector by type*/
+
+a{
+	border: 1px solid grey;
+}
+/*Class attribute selector*/
+
+.sites{
+	color: yellow;
+}
+
+/*Id attribute selector*/
+
+#Apples{
+	color: blue;
+}
+
+/*type + value selector*/
+
+a[href="www.facebook.com"]{
+	background-color: blue;
+}
+
+/*Descendant Selector*/
+
+li a{
+	border: 4px solid green;
+}
+
+
+/*Adjacent Selector*/
+
+h4+ul{
+	border: 4px solid purple;
+}
+
+/*nth of type*/
+
+ul:nth-of-type(even){
+	background: orange;
+}

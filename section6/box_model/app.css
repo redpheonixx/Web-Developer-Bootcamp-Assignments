@@ -1,0 +1,15 @@
+p{
+	/*Content - Width and Height*/
+	width: 50%;
+
+
+	/*padding*/
+	padding-left: 40px;
+
+	
+	/*margin top right bottom left*/
+	/*margin: 20px 40px 500px 100px;*/
+
+	/* margin 0 for top and bottom and auto (which mainly centers) for left and right*/
+	margin: 0 auto;
+}
